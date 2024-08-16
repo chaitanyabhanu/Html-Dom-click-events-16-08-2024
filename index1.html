@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>onclick click example 4</title>
+<!-- styles of css -->
+    <style>
+        body{
+            background-color: #666;
+            margin: 5rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #bhanu{
+            background-color:blue;
+            border: 1px solid black;
+            padding: 1rem;
+        }
+        button{
+            padding: 1rem;
+            margin:1rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- html onclick click event  -->
+    <div class="container">
+             <!-- button with  onclick event  -->
+        <button onclick="myFunction()">Click Me To Change color</button>
+            <!-- div with call id  -->
+        <div id="bhanu">
+            <h1>This Click Event Used to Change Color </h1>
+        </div>
+        <!-- JavaScript Fuction Script -->
+        <script>
+            function myFunction(){
+                document.getElementById("bhanu").style.backgroundColor= "yellow";
+            }
+        </script>
+    </div>
+    
+</body>
+</html>

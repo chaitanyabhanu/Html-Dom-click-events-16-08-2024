@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML onclick Events onclick</title>
+    <!-- styles -->
+     <style>
+        body{
+            background:linear-gradient(to right, pink  ,blue);
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 2rem;
+        }
+       #bhanu{
+        color: burlywood;
+        font-size: 3rem;
+       }
+       button{
+        padding: 1rem;
+        margin: 1rem;
+        margin-top: 15rem;
+       }
+
+     </style>
+</head>
+<body>
+
+    <div class="main-container">
+        <!-- onclick button -->
+           <button onclick="myFunction()">Click Me To Change The Text</button>
+           <!-- function call id  -->
+        <div id="chaitanya">
+            <h1>Hello Universe</h1>
+        </div>
+        <!-- js script -->
+           <script>
+            // js function
+            function myFunction(){
+                // font change by clicking the button event 
+                document.getElementById("chaitanya").innerHTML= "Hello Html";
+            }
+           </script>
+
+
+
+    </div>
+    
+</body>
+</html>
